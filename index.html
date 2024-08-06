@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroConnect Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AgroConnect Simples</h1>
+    </header>
+    <main>
+        <section id="product-form">
+            <h2>Cadastrar Produto</h2>
+            <form id="productForm">
+                <label for="productName">Nome do Produto:</label>
+                <input type="text" id="productName" required>
+                <label for="productPrice">Preço:</label>
+                <input type="number" id="productPrice" required>
+                <button type="submit">Adicionar Produto</button>
+            </form>
+        </section>
+        <section id="product-list">
+            <h2>Lista de Produtos</h2>
+            <ul id="productList">
+                <!-- Produtos pré-cadastrados -->
+                <li>Alface - R$5,00 (100g)</li>
+                <li>Mandioca - R$6,00 (100g)</li>
+                <li>Tomate - R$3,00 (100g)</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
